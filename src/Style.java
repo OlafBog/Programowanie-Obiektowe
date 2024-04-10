@@ -11,7 +11,7 @@ public class Style {
 
     public String toSvg() {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append("\" style=\"fill:").append(fillColor).append(";stroke:").append(strokeColor).append(";stroke-width:").append(strokeWidth).append("\"/>\n");
+        stringBuilder.append(" style=\"fill:").append(fillColor).append(";stroke:").append(strokeColor).append(";stroke-width:").append(strokeWidth).append("\"/>\n");
         return stringBuilder.toString();
     }
 }
